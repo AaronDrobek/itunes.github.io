@@ -1,0 +1,144 @@
+body {
+
+  width: 100vw;
+  background-color: #FFA500;
+}
+header h1{
+  color: white;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.player {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.player audio{
+  /*display: none;*/
+  width: 80vw;
+}
+
+.container{
+  background:url(./images/black-brick-wall_1154-704.jpg);
+
+}
+.search{
+  /*background:url(./images/brown-leather-texture_1232-3038.jpg);*/
+  background-size: contain;
+  margin-left: 1vw;
+  align-self: center;
+  width: 95vw;
+  height: 8vw;
+  margin-top: 3vw;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#searchBar{
+  outline: none;
+  color: black;
+  font-weight: bold;
+  background: lightgrey;
+}
+.search-form{
+
+  width: 90vw;
+  height:8vw;
+}
+
+.search-form input{
+  font-weight: 200;
+  color: grey;
+  font-size: 16pt;
+  width: 70vw;
+  height: 2vw;
+  margin-top: 3vw;
+}
+.button{
+  outline: none;
+  background: url(./images/seamless-wood-grain-texture.jpg);
+  margin-left: 2vw;
+  border-radius: 20%;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12pt;
+  /*padding-top: 1vw;*/
+  width: 10vw;
+  height: 4vw;
+
+
+}
+.button:hover{
+  border: 1px solid;
+ /*box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+ outline-color: ;
+ outline-offset: 15px;*/
+ text-shadow: 1px 1px 2px #427388;
+}
+  h5{
+  color: white;
+  margin-left: 1vw;
+  font-size: 12pt;
+  padding-top: 0vw;
+  margin-top: 1vw;
+}
+.results{
+  background: url(./images/seamless-wood-grain-texture.jpg)no-repeat top center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 300vw;
+}
+.el1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 3vw;
+  margin-left: 1vw;
+  margin-top: 3vw;
+  /*border: 1px solid black;*/
+  width: 20vw;;
+  height: 18vw;
+}
+
+.el1 img{
+  box-shadow: 10px 10px 5px #4B4B4B;
+			-moz-box-shadow: 10px 10px 5px #4B4B4B;
+			-webkit-box-shadow: 10px 10px 5px #4B4B4B;
+			-khtml-box-shadow: 10px 10px 5px #4B4B4B;
+  margin-left: 6vw;
+  width: 8vw;
+  height: 8vw;
+}
+.el1 h4{
+  height: 1.5vw;
+  text-overflow: ellipsis;
+  overflow: scroll;
+  font-size: 12pt;
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+}
+.el1 h2{
+  font-family: sans-serif;
+  color: black;
+  /*text-shadow: 25px 5px #4B4B4B;*/
+  height: 1.5vw;
+  text-overflow: ellipsis;
+  overflow: scroll;
+  font-size: 12pt;
+  text-align: center;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+.preview{
+  width: 0vw;
+  height: 0vw;
+}
